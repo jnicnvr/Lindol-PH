@@ -1,0 +1,327 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1676987342000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2023-02-15&endtime=2023-02-16&minmagnitude=5",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "1.13.6",
+        "count": 9
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.0758,
+                    -20.0455,
+                    173.92
+                ]
+            },
+            "id": "us6000jp8r"
+        },
+        {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.8662,
+                    12.3238,
+                    20.088
+                ]
+            },
+            "id": "us6000jp76"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.1,
+                "place": "101 km E of Neiafu, Tonga",
+                "time": 1676484055596,
+                "updated": 1676485107040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jp72",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000jp72&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 400,
+                "net": "us",
+                "code": "6000jp72",
+                "ids": ",us6000jp72,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 43,
+                "dmin": 0.926,
+                "rms": 0.86,
+                "gap": 72,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 5.1 - 101 km E of Neiafu, Tonga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -173.0325,
+                    -18.5271,
+                    30.546
+                ]
+            },
+            "id": "us6000jp72"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5,
+                "place": "93 km N of Opotiki, New Zealand",
+                "time": 1676472507728,
+                "updated": 1676559124148,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jp5v",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000jp5v&format=geojson",
+                "felt": 5,
+                "cdi": 2.7,
+                "mmi": 3.145,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 386,
+                "net": "us",
+                "code": "6000jp5v",
+                "ids": ",us6000jp5v,",
+                "sources": ",us,",
+                "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+                "nst": 62,
+                "dmin": 0.779,
+                "rms": 1.23,
+                "gap": 54,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 5.0 - 93 km N of Opotiki, New Zealand"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    177.4541,
+                    -37.1808,
+                    115.208
+                ]
+            },
+            "id": "us6000jp5v"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.2,
+                "place": "5 km W of Cepitá, Colombia",
+                "time": 1676466250442,
+                "updated": 1676497024818,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jp3b",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000jp3b&format=geojson",
+                "felt": 17,
+                "cdi": 4.1,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 423,
+                "net": "us",
+                "code": "6000jp3b",
+                "ids": ",us6000jp3b,",
+                "sources": ",us,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": 107,
+                "dmin": 0.856,
+                "rms": 0.79,
+                "gap": 38,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 5.2 - 5 km W of Cepitá, Colombia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.0222,
+                    6.7521,
+                    161.39
+                ]
+            },
+            "id": "us6000jp3b"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.2,
+                "place": "193 km WSW of Adak, Alaska",
+                "time": 1676446523178,
+                "updated": 1676619936846,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jp24",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000jp24&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": 3.943,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 416,
+                "net": "us",
+                "code": "6000jp24",
+                "ids": ",at00rq42f0,usauto6000jp24,us6000jp24,ak0232473kgo,",
+                "sources": ",at,usauto,us,ak,",
+                "types": ",impact-link,internal-moment-tensor,moment-tensor,oaf,origin,phase-data,shakemap,",
+                "nst": 886,
+                "dmin": 0.925,
+                "rms": 1.04,
+                "gap": 89,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 5.2 - 193 km WSW of Adak, Alaska"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -179.2385,
+                    51.253,
+                    35
+                ]
+            },
+            "id": "us6000jp24"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.7,
+                "place": "54 km WNW of Otaki, New Zealand",
+                "time": 1676443089034,
+                "updated": 1676529729738,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jp1g",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000jp1g&format=geojson",
+                "felt": 90,
+                "cdi": 5.8,
+                "mmi": 4.754,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 552,
+                "net": "us",
+                "code": "6000jp1g",
+                "ids": ",us6000jp1g,usauto6000jp1g,",
+                "sources": ",us,usauto,",
+                "types": ",dyfi,internal-moment-tensor,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 81,
+                "dmin": 0.768,
+                "rms": 1.15,
+                "gap": 40,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 5.7 - 54 km WNW of Otaki, New Zealand"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.5709,
+                    -40.5465,
+                    74.32
+                ]
+            },
+            "id": "us6000jp1g"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.1,
+                "place": "central Mid-Atlantic Ridge",
+                "time": 1676427272630,
+                "updated": 1676491366040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jp0r",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000jp0r&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 400,
+                "net": "us",
+                "code": "6000jp0r",
+                "ids": ",us6000jp0r,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 67,
+                "dmin": 15.797,
+                "rms": 0.46,
+                "gap": 30,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 5.1 - central Mid-Atlantic Ridge"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -36.9881,
+                    7.8828,
+                    10
+                ]
+            },
+            "id": "us6000jp0r"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.3,
+                "place": "central Mid-Atlantic Ridge",
+                "time": 1676427192642,
+                "updated": 1676587316040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jp0q",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us6000jp0q&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 432,
+                "net": "us",
+                "code": "6000jp0q",
+                "ids": ",us6000jp0q,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 207,
+                "dmin": 14.883,
+                "rms": 0.57,
+                "gap": 43,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 5.3 - central Mid-Atlantic Ridge"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -37.0664,
+                    8.0162,
+                    10
+                ]
+            },
+            "id": "us6000jp0q"
+        }
+    ],
+    "bbox": [
+        -179.2385,
+        -40.5465,
+        10,
+        177.4541,
+        51.253,
+        173.92
+    ]
+}
