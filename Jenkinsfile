@@ -1,9 +1,21 @@
 pipeline {
     agent {
-        docker { image 'node:16.13.1-alpine' }
+        node{
+            label 'goeshere'
+        }
     }
     stages {
-        stage('Test') {
+        stage('Build'){
+            steps{
+                echo 'Building ..'
+            }
+        }
+        stage('Test'){
+            steps{
+                echo 'Testing ...'
+            }
+        }
+        stage('Deploy') {
             steps {
                 sh 'node --version'
             }
