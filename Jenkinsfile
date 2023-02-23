@@ -1,8 +1,6 @@
 pipeline {
     agent {
-        node{
             label 'lindolph-docker-agent'
-        }
     }
     stages {
         stage('Build'){
