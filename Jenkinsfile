@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node{
-            label 'goeshere'
+            label 'lindolph-docker-agent'
         }
     }
     stages {
